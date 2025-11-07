@@ -1428,17 +1428,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 896679031009646393, guid: 303d77a6e9e41814fb6e5bb1403b960a,
+    - target: {fileID: 332304085230969850, guid: 303d77a6e9e41814fb6e5bb1403b960a,
         type: 3}
       propertyPath: messageField
       value: 
       objectReference: {fileID: 52375720}
-    - target: {fileID: 896679031009646393, guid: 303d77a6e9e41814fb6e5bb1403b960a,
+    - target: {fileID: 332304085230969850, guid: 303d77a6e9e41814fb6e5bb1403b960a,
         type: 3}
       propertyPath: itemImageHolder
       value: 
       objectReference: {fileID: 1410528564}
-    - target: {fileID: 896679031009646393, guid: 303d77a6e9e41814fb6e5bb1403b960a,
+    - target: {fileID: 1599330765294122113, guid: 303d77a6e9e41814fb6e5bb1403b960a,
+        type: 3}
+      propertyPath: messageField
+      value: 
+      objectReference: {fileID: 52375720}
+    - target: {fileID: 1599330765294122113, guid: 303d77a6e9e41814fb6e5bb1403b960a,
         type: 3}
       propertyPath: introductionField
       value: 

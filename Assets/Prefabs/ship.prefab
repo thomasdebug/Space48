@@ -11,7 +11,10 @@ GameObject:
   - component: {fileID: 8344041532633129881}
   - component: {fileID: 4577338927947959306}
   - component: {fileID: 8794260304170220016}
-  - component: {fileID: 896679031009646393}
+  - component: {fileID: 1599330765294122113}
+  - component: {fileID: 2694670404668690639}
+  - component: {fileID: 6347719339467343652}
+  - component: {fileID: 332304085230969850}
   m_Layer: 0
   m_Name: ship
   m_TagString: Untagged
@@ -64,7 +67,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &896679031009646393
+--- !u!114 &1599330765294122113
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -73,16 +76,54 @@ MonoBehaviour:
   m_GameObject: {fileID: 2708252833709529029}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fac6b3e848a97c4408e56d54b2707a84, type: 3}
+  m_Script: {fileID: 11500000, guid: ae5e946510e116948b613f52973e13a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  introductionField: {fileID: 0}
+  messageField: {fileID: 0}
+--- !u!114 &2694670404668690639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708252833709529029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfac1c16fed78a84c9073df768e6beea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  laserPrefab: {fileID: 6296192066327028313, guid: fb1761f4ca56baf4184f207a50c08d0a,
+    type: 3}
+  cooldownTime: 3
+--- !u!114 &6347719339467343652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708252833709529029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe2e6b9d48b2aba4a89a9c75f2218fb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  rotationSpeed: 250
-  laserPrefab: {fileID: 6296192066327028313, guid: fb1761f4ca56baf4184f207a50c08d0a,
-    type: 3}
-  cooldownTime: 1
+  rotationSpeed: 25
+--- !u!114 &332304085230969850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708252833709529029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc560ea4bf5ea364c82534a77b85aa6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemImageHolder: {fileID: 0}
-  introductionField: {fileID: 0}
+  messageField: {fileID: 0}
 --- !u!1001 &9044626916692821676
 PrefabInstance:
   m_ObjectHideFlags: 0
